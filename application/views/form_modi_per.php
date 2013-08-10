@@ -223,8 +223,8 @@ Tipo
 <div>
 <select name="Tipo" id="Tipo">
 				
-			  	<option value="1">Docente</option>
-			  	<option value="2">Estudiante</option>
+			  	<option value="1" <?php  if($tipo == 1){ echo "selected='".$tipo."'";}?>>Docente</option>
+			  	<option value="2" <?php  if($tipo == 2){ echo "selected='".$tipo."'";}?>>Estudiante</option>
 			  	
       		</select>
 </div>
